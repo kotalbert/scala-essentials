@@ -8,10 +8,6 @@ import specs.UnitSpec
 
 private class ArraysTests extends UnitSpec:
 
-  // could be improved
-  // https://stackoverflow.com/a/65378521
-  // todo: implement as property based tests
-  //
   val examples: TableFor5[Array[Int], Int, Double, Int, Int] = Table(
     ("array", "sum", "avg", "min", "max"),
     (Array(1, 2, 3), 6, 2d, 1, 3),
