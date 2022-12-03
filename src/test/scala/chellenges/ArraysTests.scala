@@ -1,12 +1,12 @@
 package chellenges
 
 import challenges.Arrays
-import org.scalatest.prop.TableDrivenPropertyChecks._
-import org.scalatest.matchers.should.Matchers._
-import org.scalatest.funsuite.AnyFunSuite
-import org.scalatest.prop.TableFor5
+import org.scalatest.*
+import org.scalatest.prop.*
+import org.scalatest.prop.TableDrivenPropertyChecks.*
+import specs.UnitSpec
 
-private class ArraysTests extends AnyFunSuite:
+private class ArraysTests extends UnitSpec:
 
   // could be improved
   // https://stackoverflow.com/a/65378521
